@@ -10,15 +10,9 @@ background-position: center;
     width: 90px;
     margin-top: 5px;
 }
-.logoPc{
-    width: 240px;
-    margin-left: -10px;
-    margin-right: 20px;
-}
-
 .container00{
     &.container01{
-        background-image: url(../../assets/home/03.jpg);
+        background-image: url(../../assets/home/01.jpg);
     }
     &.container02{
         background-image: url(../../assets/home/03.jpg);
@@ -32,6 +26,7 @@ background-position: center;
 }
 .titlePadding{
     padding-top: 200px;
+    color: rgb(127, 182, 255);
 }
 
 .shortTitle{
