@@ -4,6 +4,12 @@
     background-repeat: no-repeat;
     background-position: center;
     }
+    .numbers{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     .titlePadding{
         color: #7676ca;
         text-align: center;
@@ -17,17 +23,6 @@
         font-size: 4vh;
     }
     
-    .numbers {
-        font-size: 5vh;
-        display: flex;
-        justify-content: space-between;    
-    }
-     .h5text{
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 4vh;
-
-     }
      .text{
         font-weight: 300;
      }
@@ -38,10 +33,10 @@
         &.container02{
             background-image: url(../../assets/falcon9/02.jpg);
         }
-        &.container03{
+        &.carousel01{
             background-image: url(../../assets/falcon9/03.jpg);
         }
-        &.container04{
+        &.carousel03{
             background-image: url(../../assets/falcon9/04.jpg);
         }
         &.container05{
