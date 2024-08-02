@@ -36,11 +36,20 @@
         &.carousel01{
             background-image: url(../../assets/falcon9/03.jpg);
         }
-        &.carousel03{
+        &.carousel02{
             background-image: url(../../assets/falcon9/04.jpg);
         }
-        &.container05{
+        &.carousel03{
             background-image: url(../../assets/falcon9/05.jpg);
+        }
+        &.carousel04{
+            background-image: url(../../assets/falcon9/06.jpg);
+        }
+        &.carousel05{
+            background-image: url(../../assets/falcon9/07.jpg);
+        }
+        &.container03{
+            background-image: url(../../assets/falcon9/08.jpg);
         }
 
     }
@@ -58,4 +67,19 @@
         margin-bottom: -25px;
     }
     
-    
+    .downdoloadDesc{
+        background-color: black;
+        height: 85vh;
+        padding-top: 240px;
+        a{
+            text-decoration: none;
+            color: #7676ca;
+            &:hover{
+                color: aqua;
+            }
+        }
+        button{
+            border: 2px solid white;
+            margin-right: 10px;
+        }
+    }
